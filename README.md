@@ -6,7 +6,7 @@ This repository contains code examples for the Kafka Building Blocks course from
 
 - [Chapter 1: Storage Layer][01-storage-layer]
 - [Chapter 2: Communication Layer][02-communication-layer]
-- Chapter 3: Development Workflows
+- Chapter 3: The Road Ahead (no tutorials)
 
 [rp]: https://redpanda.com/
 [rpu]: https://university.redpanda.com/
