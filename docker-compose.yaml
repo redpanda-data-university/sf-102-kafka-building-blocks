@@ -67,7 +67,7 @@ services:
   #     - 9093:9093
 
   redpanda-console:
-    image: docker.redpanda.com/redpandadata/console:v2.2.2
+    image: docker.redpanda.com/redpandadata/console:latest
     container_name: redpanda-console
     entrypoint: /bin/sh
     command: -c "echo \"$$CONSOLE_CONFIG_FILE\" > /tmp/config.yml; /app/console"
