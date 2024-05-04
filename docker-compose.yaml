@@ -65,6 +65,8 @@ services:
   #   ports:
   #     - 8083:8083
   #     - 9093:9093
+  #     - 28083:28083
+  #     - 29093:29093
 
   redpanda-console:
     image: docker.redpanda.com/redpandadata/console:latest
