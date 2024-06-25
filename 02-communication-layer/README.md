@@ -29,7 +29,7 @@ python3 -m venv
 source bin/activate
 
 # install the kafka-python dependency
-pip install kafka-python
+pip install kafka-python-ng
 
 # create the purchases topic
 rpk topic create purchases -p 4
