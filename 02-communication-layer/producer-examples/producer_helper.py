@@ -8,7 +8,7 @@ class Producer:
         # Define default values for KafkaProducer configuration
         defaults = {
             # Use a JSON serializer by default
-            "bootstrap_servers": os.getenv("REDPANDA_BROKERS", ""),
+            "bootstrap_servers": os.getenv("REDPANDA_BROKERS", "localhost:9092"),
             "value_serializer": lambda v: json.dumps(v).encode("utf-8"),
         }
         # Instantiate a Kafka producer client using the merged configuration.
