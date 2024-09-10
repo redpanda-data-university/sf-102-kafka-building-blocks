@@ -2,7 +2,7 @@ import datetime
 from .producer_helper import Producer
 
 # Create a producer instance
-redpanda_producer = Producer(topic="purchases")
+redpanda_producer = Producer("purchases")
 
 # Write a purchase event to Redpanda
 message = {
