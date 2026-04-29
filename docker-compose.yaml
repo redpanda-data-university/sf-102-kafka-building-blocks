@@ -78,13 +78,13 @@ services:
       CONSOLE_CONFIG_FILE: |
         kafka:
           brokers: ["redpanda-1:29092"]
-          schemaRegistry:
-            enabled: false
+        schemaRegistry:
+          enabled: false
         redpanda:
           adminApi:
             enabled: true
             urls: ["http://redpanda-1:9644"]
-        connect:
+        kafkaConnect:
           enabled: false
     ports:
       - 8080:8080
